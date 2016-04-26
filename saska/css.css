@@ -8,42 +8,42 @@ h1{
 	margin-top: 15px;
 }
 
+
+@media (min-width : 992px){
+
+div.container{
+	display: inline-block;
+	margin-left: 40px;
+}
+
 section{
 	display: inline-block;
-	height: 350px;
+	height: 280px;
 	width: 25%;
 	text-align: justify;
 	border: 2px solid black;
 	text-indent: 20px;
 }
 
-
-@media (min-width : 992px){
-
-div.container{
-	display: inline-block;
-	margin-left: 70px;
-}
-
 .back1{
 	background-color: pink;
-	margin: 35px;
+	margin: 10px;
 	float: left;
-	width: 33,3%;
+	width: 30%;
 }
 
 .back2{
 	background-color: pink;
-	margin: 35px;
+	margin: 10px;
 	float: left;
-	width: 33,3%;
+	width: 30%;
 }
 
 .back3{
 	background-color: pink;
-	margin: 35px;
+	margin: 10px;
 	float: left;
-	width: 33,3%;
+	width: 30%;
 }
 
 .bor{
@@ -58,10 +58,6 @@ div.container{
 	clear: left;
 	position: relative;
 }
-
-.container{
-	position: absolute;
-}
 }
 
 @media (min-width : 768px) and (max-width: 991px) {
@@ -71,6 +67,7 @@ div.container{
 	display: inline-block;
 	text-align: center;
 	margin-left: 10px;
+	width: 100%;
 }
 
 .back1{
@@ -120,10 +117,6 @@ section{
 	float: right;
 	clear: left;
 	position: relative;
-}
-
-.container{
-	position: absolute;
 }
 }
 
@@ -175,9 +168,5 @@ section{
 	float: right;
 	clear: left;
 	position: relative;
-}
-
-.container{
-	position: absolute;
 }
 }
